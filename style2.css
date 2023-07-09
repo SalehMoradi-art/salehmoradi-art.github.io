@@ -1,0 +1,75 @@
+body{
+    background-image: url(baf.jpg);
+    background-repeat: repeat;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 350px;
+    color: aqua;
+    text-align: center;
+}
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+
+}
+.container2 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+    /* glowing hover card made by: csozi | Website: english.csozi.hu*/
+.card{
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.61);
+  transition: all 0.2s;
+}
+.card:hover {
+    transform: scale(1.2);
+}
+
+.br {
+  border-radius: 60px;
+}
+
+  @keyframes floating {
+    0% {
+      transform: translateY(0px);
+    }
+  
+    50% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+   @media screen and (max-width: 800px) {
+    .container{
+        flex-direction: column;
+        gap: 80px;
+    }
+    .card{
+        transform: scale(1.3);
+    }
+    .container2{
+      gap: 60px;
+      width: 90%;
+    }
+    .br {
+      width: 120px;
+      border-radius: 40px;
+    }
+  }
+
