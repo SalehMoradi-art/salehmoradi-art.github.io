@@ -1,10 +1,10 @@
 body{
-    background-image: url(baf.jpg);
+    background-image: url(shattered-island.gif);
     background-repeat: repeat;
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
-    background-size: 350px;
+    background-size: 600px;
     color: aqua;
     text-align: center;
 }
