@@ -37,6 +37,28 @@ body{
     transform: scale(1.2);
 }
 
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Adjust the width of the scrollbar */
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f15b; /* Set the background color of the scrollbar track */
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #8888888c; /* Set the color of the scrollbar thumb */
+  border-radius: 20px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #003cff62; /* Set the color of the scrollbar thumb on hover */
+  
+}
+
+
+
 .br {
   border-radius: 60px;
 }
