@@ -113,10 +113,10 @@ button{
   color: aqua;
   padding:10px 30px ;
   border-radius: 15px;
-background: #080712;
-background: linear-gradient(145deg, #090713, #070610);
-box-shadow:  5px 5px 8px #1e1e35,
-             -5px -5px 8px #151230;
+background: #424149;
+background: linear-gradient(145deg, #1d1b27, #2d2b3a98);
+box-shadow:  5px 5px 8px #26262e,
+             -5px -5px 8px #292731;
   border: 0.2px solid rgba(255, 250, 250, 0.26);
   font-family: font1;
   font-size: medium;
